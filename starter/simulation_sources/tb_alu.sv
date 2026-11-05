@@ -52,7 +52,7 @@ initial begin: TEST_VECTORS
     // write here: release compute
     repeat (10) @(posedge clk);
 
-    // write here: check that the result is 0011 XOR 0110
+    // check the waveform simulation to see if it is correct
 
     $finish();
 end
