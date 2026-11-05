@@ -5,5 +5,5 @@ module xor_1bit (
     input  logic b,
     output logic y
 );
-    // write here
+    // write here: assign y = a XOR b
 endmodule

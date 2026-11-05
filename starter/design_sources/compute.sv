@@ -15,12 +15,12 @@ module compute (
         .y (y_mystery)
     );
 
-    // write here
+    // write here: instantiate and_1bit, or_1bit and xor_1bit
 
     always_comb begin
         case (op)
             2'b11:   y = y_mystery;
-            // write here
+            // write here: cases for other operations
             default: y = 1'b0;
         endcase
     end

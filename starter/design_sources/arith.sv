@@ -11,7 +11,7 @@ module arith (
         y = 8'h00;
         case (op)
             2'b00: y = a + b;
-            // write here
+            // write here: cases for a * b, a / b and a % b
             default: y = 8'h00;
         endcase
     end

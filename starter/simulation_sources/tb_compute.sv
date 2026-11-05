@@ -14,7 +14,7 @@ compute dut (.*);
 
 initial begin : TEST_VECTORS
 
-    // write here
+    // write here: test 0011 XOR 0110 one bit at a time
 
     $finish();
 end

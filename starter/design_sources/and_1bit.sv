@@ -5,5 +5,5 @@ module and_1bit (
     input  logic b,
     output logic y
 );
-    // write here
+    // write here: assign y = a AND b
 endmodule

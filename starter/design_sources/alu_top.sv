@@ -41,7 +41,7 @@ module alu_top (
         .q   (op_S)
     );
 
-    // write here
+    // write here: instantiate control, register_unit, compute, reg_4 (reg_R) and arith
 
     reg_8 reg_out (
         .Clk      (clk),
